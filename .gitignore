@@ -1,5 +1,16 @@
+# Virtual Environment
+agentic_env/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
-.env
-.vscode/
-node_modules/
+
+# Large model files
+models/
+*.safetensors
+*.pt
+*.pth
+
+# System files
+.DS_Store
